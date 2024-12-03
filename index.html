@@ -1,24 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Майстри джедаї</title>
-    <link
-      rel="shortcut icon"
-      href="img/car.png"
-      type="image/x-icon"
-    />
-    <script
-      src="https://unpkg.com/htmx.org@1.9.10"
-      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <h1>Header</h1>
-    <h1>text h2</h1>
-    <img width="200" src="img/car.png" alt="outstanding car">
-  </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <div class="header__nav">
+                    <nav>
+                        <ul class="nav__list">
+                            <li class="nav__list"><a class="nav__link" href="#">Home</a></li>
+                            <li class="nav__list"><a class="nav__link" href="#">Product</a></li>
+                            <li class="nav__list"><a class="nav__link" href="#">Pricing</a></li>
+                            <li class="nav__list"><a class="nav__link" href="#">About</a></li>
+                            <li class="nav__list"><a class="nav__link" href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__logo">
+                        <img src="img/logo.svg" alt="logo">
+                    </div>
+                    <ul class="header__social social">
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img src="/img/ant-design_twitter-outlined.svg" alt="twitter">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img src="img/ant-design_facebook-filled.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img src="img/ant-design_linkedin-filled.svg" alt="linkedn">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <section class="first-page">
+                <h1 class="first-page__title title">The best products start with Figma</h1>
+                <div class="first-page__descr descr">Most calendars are designed for teams. Slate is designed for
+                    freelancers</div>
+                <a href="#" class="first-page__btn btn">Try For Free</a>
+            </section>
+
+
+            <section class="fastest">
+                <div class="fastest__left">
+                    <div class="fastest__title title">Fastest way to organize</div>
+                    <div class="fastest__descr descr">Most calendars are designed for teams. Slate is designed for
+                        freelancers</div>
+                    <a href="#" class="fastest__btn btn">Try For Free</a>
+                </div>
+                <div class="fastest__right">
+                    <img src="img/Frame 18.png" alt="laptop">
+                </div>
+            </section>
+            <section class="price">
+                <div class="price__title title"></div>
+                <div class="price__descr descr"></div>
+                <ul class="price__items">
+                    <li class="price__item">
+                        <div class="price__content">
+                            .
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+
 </html>
